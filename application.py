@@ -1,5 +1,5 @@
 import pymysql
-from app import app
+from app import app as application
 from db_config import mysql
 from flask import flash,jsonify,request,send_from_directory
 from werkzeug import generate_password_hash, check_password_hash
@@ -45,16 +45,16 @@ from Common import getPhoto
 from Common import getPhotosByRestaurant
 
 
-@app.route('/')
+@application.route('/')
 def JJ():
     print("SERVER IS RUNNING")
     return "SERVER IS RUNNING"
 
-@app.route('/html/<path:path>')
+@application.route('/html/<path:path>')
 def send_html(path):
     return send_from_directory('static',path)
 
-@app.route('/deleteALL')
+@application.route('/deleteALL')
 def drop_id():
     try:
         conn = mysql.connect()
@@ -83,4 +83,4 @@ def drop_id():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    application.run(debug=True)
