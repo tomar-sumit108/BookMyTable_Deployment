@@ -1,0 +1,51 @@
+[
+  {
+    "average_cost_for_two": "700",
+    "cuisines": ["inissss", "uoip"],
+    "establishment": ["aasfsa", "zcvxz"],
+    "highlights": ["adfsaf", "adflkjiojoij"],
+    "location": {
+      "address": {
+        "line_1": "2a/61a Azad Nagar",
+        "line_2": "kanpur "
+      },
+      "locality": "Azad nagar",
+      "city": "Kanpur",
+      "locality_verbose": "Near Chandra Bakery",
+      "zipcode": "208002"
+    },
+    "name": "Pizza Celebrations",
+    "phone": {
+      "std": "+91",
+      "number": "234234324"
+    },
+    "capacity": "12",
+
+    "thumb": "",
+    "timings": "10AM - 10PM",
+    "opening_status": "1",
+    "email": "pizza@gmail.com",
+    "password": "qwerty",
+    "website": "pizza.com",
+    "days": {
+      "Monday": true,
+      "Tuesday": true,
+      "Wednesday": true,
+      "Thursday": true,
+      "Friday": false,
+      "Saturday": false,
+      "Sunday": false
+    },
+    "slots": [
+      {
+        "start_time": "10:00",
+        "end_time": "15:00"
+      },
+      {
+        "start_time": "18:00",
+        "end_time": "22:00"
+      }
+    ],
+    "errors": {}
+  }
+]
